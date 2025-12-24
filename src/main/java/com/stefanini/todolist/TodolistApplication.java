@@ -22,11 +22,14 @@ public class TodolistApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(TodolistApplication.class, args);
 		
-		List<Tarefa> tarefas = new ArrayList<>();
-
-		Tarefa tarefa = new Tarefa(null, "titulo 4", "excluir dados", new Date(new java.util.Date().getTime()), TarefaStatus.PENDENTE);
-		
-		TarefaRepositoryImpl repository = new TarefaRepositoryImpl();
-		repository.save(tarefa);
+		/*
+		 * List<Tarefa> tarefas = new ArrayList<>();
+		 * 
+		 * Tarefa tarefa = new Tarefa(null, "titulo 4", "excluir dados", new Date(new
+		 * java.util.Date().getTime()), TarefaStatus.PENDENTE);
+		 * 
+		 * TarefaRepositoryImpl repository = new TarefaRepositoryImpl();
+		 * repository.save(tarefa);
+		 */
 	}
 }
